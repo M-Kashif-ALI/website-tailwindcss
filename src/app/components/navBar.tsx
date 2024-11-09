@@ -26,8 +26,8 @@ const NavBar = () => {
           <div className="text-white">
             <ul className="md:flex md:items-center gap-3 md:gap-7 text-lg md:text-xl py-4 sm:py-0 hidden">
               <Link href='/'><li>Home</li></Link>
-              <Link href='/contact'><li>Technology</li></Link>
-              <Link href='/contact'><li>Galaxy</li></Link>
+              <Link href='/tech'><li>Technology</li></Link>
+              <Link href='/galaxy'><li>Galaxy</li></Link>
               <Link href='/satelite'><li>Satelite</li></Link>
               <Link href='/about'><li>About</li></Link>
             </ul>
@@ -53,8 +53,8 @@ const NavBar = () => {
                   <div className="absolute mt-8 right-1 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 px-4 py-3 rounded-md">
                     <ul>
                       <Link href='/'><li>Home</li></Link>
-                      <Link href='/contact'><li>Technology</li></Link>
-                      <Link href='/contact'><li>Galaxy</li></Link>
+                      <Link href='/tech'><li>Technology</li></Link>
+                      <Link href='/galaxy'><li>Galaxy</li></Link>
                       <Link href='/satelite'><li>Satelite</li></Link>
                       <Link href='/about'><li>About</li></Link>
                       <Link href='/login'><li>Login</li></Link>

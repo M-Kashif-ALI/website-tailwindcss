@@ -1,9 +1,10 @@
-import bgVideo from '../../video/earth-bg.mp4'
 import Hero from './components/hero';
 import NavBar from './components/navBar';
 import Services from './components/services';
 
 export default function Home() {
+  const bgVideo = "/video/earth-bg.mp4"
+
   return (
     <div>
       <div className="h-[700px] relative"> 

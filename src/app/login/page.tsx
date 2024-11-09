@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import bgVideo from '../../../video/earth-bg.mp4'
 
 
 const Login = () => {
+  const bgVideo = "/video/earth-bg.mp4"
   return (
     <div className='overflow-hidden'>
       <div>
